@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://demos.telerik.com/" />
+<title>StoreBGTestCase</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">StoreBGTestCase</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>http://www.book.store.bg</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>xpath=//div[@class='lc-container-content']/form/div[1]/input[@type='text']</td>
+	<td>JavaScript</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>xpath=//div[@class='lc-container-content']/form/table/tbody/tr[1]/td[2]/input[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>xpath=/html/body/div[3]/div[2]/div[1]/div[2]/div[3]/div[5]/table/tbody/tr[1]/td/a/h3</td>
+	<td>regexp:[//.]*JavaScript[//.]*</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>xpath=//div[@class='lc-container-content']/form/table/tbody/tr[2]/td[1]/label</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>xpath=//div[@class='lc-container-content']/form/table/tbody/tr[1]/td[2]/input[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>xpath=/html/body/div[3]/div[2]/div[1]/div[2]/div[3]/div[5]/table/tbody/tr[1]/td/a/h3</td>
+	<td>regexp:[//.]*JavaScript[//.]*</td>
+</tr>
+<tr>
+	<td>storeText</td>
+	<td>xpath=/html/body/div[3]/div[2]/div[1]/div[2]/div[3]/div[5]/table/tbody/tr[1]/td/a/h3</td>
+	<td>bookTitle</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>xpath=/html/body/div[3]/div[2]/div[1]/div[2]/div[3]/div[5]/table/tbody/tr[1]/td/a/h3</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>xpath=/html/body/div[3]/div[2]/div[1]/div[2]/div[3]/div[1]/table/tbody/tr/td[3]/div[2]/a</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>xpath=/html/body/table/tbody/tr[2]/td/table/tbody/tr/td/div[2]/div[3]/div/table/tbody/tr[3]/td/b</td>
+	<td>regexp:[//.]*${bookTitle}[//.]*</td>
+</tr>
+
+</tbody></table>
+</body>
+</html>
